@@ -1,0 +1,38 @@
+/*Apply a radial gradient background to the entire page */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#EB4BD8;
+    background: rgb (63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    text-align: center;
+    padding: 50px;
+}
+
+/*style for the heading*/
+h1{
+    color:#EB4BD8; 
+    background-color:#ffffff;
+    font-size: 4em;
+
+}
+
+/*style for the paragraph*/
+p{
+    font-size: 1.2em;
+}
+
+/*Style for the Instagram link */
+a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight:bold;
+}
+img[src="assets/khatzz.jpg"] {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width:25%;
+    height: auto;
+    min-width: 150px;
+    border: 4px solid #ffffff
+}
